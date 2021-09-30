@@ -1,143 +1,224 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous"> -->
 
-    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 
-    <link rel="stylesheet" href="./css/style.css">
-    
-  </head>
-  <body>
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous"> -->
 
-    <header>
+  <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+
+  <!-- <header>
       <div class="container"> 
         <img id="logo" alt="logo" width="110" height="40" src="https://ebaconline.com.br/_nuxt/d58908d198123d3c50c18638f58abb26.svg" class="not-lazy">
       </div>
-    </header>
+    </header> -->
 
-    
-    
-    <section class="container">
 
-      <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active"></li>
-          <li data-bs-target="#carouselId" data-bs-slide-to="1"></li>
-        </ol>
-        <div class="carousel-inner" role="listbox">
-          <div class="carousel-item active">
-            <img src="./images/pexels-luis-gomes-546819.jpg" alt="First slide">
-          </div>
-          <div class="carousel-item">
-            <img src="./images/pexels-marta-branco-1194713.jpg" alt="Foto de Marta Branco no Pexels">
-          </div>
+
+  <section class="container">
+    <!--O container vai fazer o conteúdo ficar centralizado, agrupar, vai criar uma estrutura que vai deixar o código centralizado.-->
+
+    <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#carouselId" data-bs-slide-to="1"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+          <img src="./images/Roosevelt Quote LinkedIn Post Header.png" alt="First slide">
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-          </button>
+        <div class="carousel-item">
+          <img src="./images/abrace-um-coreacao.png" alt="Second slide">
+        </div>
+
       </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
 
-      <div class="row">
-        <div class="col-md-6 col-sm-12">
-          <h1>Marcelo </h1>
-          <h6>Tech lead - Dasa / Professo - EBAC</h6>
-          <p>Desenvolvedor Web desde 2008, com vasta experiência em projetos de internet, incluindo dispositivos móveis, marketing e performance digital. Já trabalhou em empresas como UOL, Valor Econômico, Editora Abril e PagSeguro, além de prestar consultoria para diversas marcas nacionais e multinacionais. Ele tem vasta experiência com React, JavaScript, HTML5, SASS, Node.js, Vue.js, Next.js, Laravel, typescript e nest.js</p>
-        </div>
-        <div class="col-md-6 col-sm-12">
-          <img src="./images/pexels-marta-branco-1194713.jpg" alt="Foto de Marta Branco no Pexels">
-        </div>
+    <div class="row">
+      <!-- Ajuda a definir as colunas -->
+      <div class="col-md-4 col-sm-12">
+        <h1> Nina Hee Jin Choi </h1>
+        <h6>Universidade Nove de Julho - Análise de Desenvolvimento de Sistemas</h6>
+        <p>Nina Choi at age 20 she created her first startup, where she received recognition for entrepreneurship. Her
+          professional experience includes sales management positions, as well as financial administration in the
+          Boticário group. Great technology enthusiast, always looking for knowledge and training in the area.</p>
       </div>
+      <div class="col-md-7 col-sm-12">
+        <h2>Experiências Prévias</h2>
+        <h6>Consulado Geral da Rep. Da Coréia (Julho 2019 - Janeiro de 2021)</h6>
+        <p>No consulado Geral da República da Coreia atuei no cargo administrativo, sendo responsável por todo o
+          escritório,
+          desde, notas fiscais, compras, negociações, redução de custo, contas a pagar, controle de funcionários,
+          trâmite de
+          documentação e entre outras atividades.</p>
+        <h6>Modas Gio (Dezembro 2018 - Maio 2019)</h6>
+        <p>Modas Gio é uma empresa de confecção em atacado de moda feminina. No cargo de gerente fui responsável por
+          administração dos funcionários, controle de caixa e de estoque, negociação com clientes, contas a pagar,
+          cadastro
+          de produtos, cobrança, emissão de nota fiscal e atendimento ao cliente.
+        </p>
+      </div>
+    </div>
 
-      <h2>Habilidades</h2>
-      <div class="row">
-        <div class="col">
-          
-          <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+    <h2>Habilidades</h2>
+    <div class="row">
+      <div class="col">
+
+        <div class="card" style="width: 18rem;">
+          <img src="./images/4373213_js_logo_logos_icon.png" class="card-img-top" alt="java-script">
+          <div class="card-body">
+            <h5 class="card-title">JavaScript</h5>
+            <!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a> -->
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <img src="./images/4373217_java_logo_logos_icon.png" class="card-img-top" alt="java">
+          <div class="card-body">
+            <h5 class="card-title">Java</h5>
+            <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a> -->
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <img src="./images/4375050_logo_python_icon.png" class="card-img-top" alt="python">
+          <div class="card-body">
+            <h5 class="card-title">Python</h5>
+            <!--  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+           <a href="#" class="btn btn-primary">Go somewhere</a> -->
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <h2>Formação</h2>
+    <div class="row">
+      <div class="col">
+        <div class="accordion" id="meuacordeon">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                aria-expanded="true" aria-controls="collapseOne">
+                Educação
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+              data-bs-parent="#meuacordeon">
+              <div class="accordion-body">
+                <p>Universidade Nove de Julho: Análise de Desenvolvimento de Sistemas (01/01/2021 - 01/12/2022);</p>
+                <p>Universidade Anhembi Morumbi: Marketing (17/08/2015 - 01/02/2016);</p>
+                <p>Curso Trade School: Overseas Korean Trade Association (2014);</p>
+                <p>Curso Descola: Economia Colaborativa (2018);</p>
+              </div>
             </div>
           </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                aria-expanded="true" aria-controls="collapseTwo">
+                Atividade extracurriculares
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+              data-bs-parent="#meuacordeon">
+              <div class="accordion-body">
+                <p id="teste">Vencedora do curso Trade School organizado pela Overseas Korean Trade Association - OKTA (2014).</p>
+                <p>Finalista Maratona de Negócios da Campus Party 2015.</p>
+                <p>Finalista mentes inovadoras com menos de 35 anos, programa MIT Brasil.</p>
+                <p>JCI Brasil Coreia Junior Chamber International (Câmara Júnior Internacional).</p>
+                <p>Diretora Adjunta de Inovação da OKTA (Overseas Korean Trade Association) 2020.</p>
 
-          <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+
             </div>
-          </div>
-
-          <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-          
-        </div>
-      </div>
-
-      <h2>Formação</h2>
-      <div class="row">
-        <div class="col">
-          <div class="accordion" id="meuacordeon">
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingOne">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  Publicidade
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                  aria-expanded="true" aria-controls="collapseTwo">
+                  Entre em contato
                 </button>
               </h2>
-              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#meuacordeon">
+              <div id="contato" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                data-bs-parent="#meuacordeon">
                 <div class="accordion-body">
-                  <p>Trabalho com grid, componentes...</p>
+                  <div class="row">
+                    <div class="col">
+                      <div class="card" style="width: 5rem;">
+                        <a href="https://github.com/techchoi">
+                          <img src="./images/211904_social_github_icon.png" class="card-img-top" alt="github">
+                        </a>
+                      </div>
+                      <div class="card" style="width: 5rem;">
+                        <a href="https://www.linkedin.com/in/choinina/">
+                          <img src="./images/5296501_linkedin_network_linkedin logo_icon.png" class="card-img-top"
+                            alt="linkedin">
+                        </a>
+                      </div>
+                      <div class="card" style="width: 5rem;">
+                        <a href="mailto:ninahjc.94@gmail.com">
+                          <img src="./images/7089163_gmail_google_icon.png" class="card-img-top" alt="gmail">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
                 </div>
+
               </div>
+
             </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingOne"> 
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-                  Sistemas de Informação
-                </button>
-              </h2>
-              <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#meuacordeon">
-                <div class="accordion-body">
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus dicta veniam quibusdam eligendi? Quis, eum? Mollitia molestias facilis ut sint? Voluptas commodi quisquam itaque numquam nostrum praesentium ab mollitia dolorum.</p>
-                  
-                </div>
-              </div>
-              
-            </div>
-            
+
           </div>
         </div>
       </div>
 
-    </section>
+  </section>
 
-    <footer>
-      <p class="text-center">&copy; 2021 - Desenvolvido por Marcelo</p>
-    </footer>
+  <footer>
+    <p class="text-center">&copy; 2021 - Desenvolvido por Nina Choi</p>
+    <button type="button" 
+onclick="modoDaltonicos()">
+Click Me!</button>
+
+  </footer>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
-    <script>
-      console.log('hello world')
-    </script>
-  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"></script>
+  <!--Importante deixar o JS (Java Script) sempre no final da página, para ele não impactar no tempo de carregamento -->
+  <script>
+    console.log('hello world')
+    //   function modoDaltonicos() {
+    //   document.getElementById("teste").style.backgroundColor = "red";
+    //   document.getElementById("p2").style.fontFamily = "Arial";
+    //   document.getElementById("p2").style.fontSize = "larger";
+    // } 
+  </script>
+</body>
+
 </html>
